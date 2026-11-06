@@ -1,0 +1,182 @@
+/* =====================================
+   ROSALIA SEMIJÓIAS
+   Identidade visual
+===================================== */
+
+:root {
+    --dourado: #B08D57;
+    --dourado-claro: #D8C49A;
+    --dourado-escuro: #A17C43;
+    --branco: #FFFFFF;
+    --fundo: #FAF9F6;
+    --texto: #333333;
+    --borda: #EAE3D7;
+}
+
+/* FUNDO */
+
+.stApp {
+    background-color: #FFFFFF !important;
+}
+
+.block-container {
+    padding-top: 2.5rem;
+    max-width: 1250px;
+}
+
+/* TÍTULOS */
+
+h1, h2, h3,
+.stMarkdown h1,
+.stMarkdown h2,
+.stMarkdown h3 {
+    color: var(--dourado) !important;
+    font-family: Georgia, serif !important;
+}
+
+h1 {
+    font-size: 2.5rem !important;
+    letter-spacing: 2px;
+}
+
+/* TEXTOS */
+
+p, label {
+    color: var(--texto);
+}
+
+/* DIVISÓRIAS */
+
+hr {
+    border-color: var(--dourado-claro) !important;
+}
+
+/* BOTÕES COMUNS */
+
+.stButton > button,
+.stDownloadButton > button {
+    background-color: var(--dourado) !important;
+    color: #FFFFFF !important;
+    border: 1px solid var(--dourado) !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+}
+
+.stButton > button:hover,
+.stDownloadButton > button:hover {
+    background-color: var(--dourado-escuro) !important;
+    color: #FFFFFF !important;
+}
+
+/* =====================================
+   UPLOAD DE ARQUIVOS
+===================================== */
+
+[data-testid="stFileUploader"] {
+    background-color: #FAF9F6 !important;
+    border: 1px solid #D8C49A !important;
+    border-radius: 12px !important;
+    padding: 20px !important;
+}
+
+/* Área interna onde o arquivo é arrastado */
+
+[data-testid="stFileUploaderDropzone"] {
+    background-color: #FAF9F6 !important;
+    border: 1px dashed #B08D57 !important;
+    border-radius: 10px !important;
+}
+
+/* Texto da área de upload */
+
+[data-testid="stFileUploaderDropzone"] div,
+[data-testid="stFileUploaderDropzone"] span,
+[data-testid="stFileUploaderDropzone"] small {
+    color: #333333 !important;
+}
+
+/* Botão de selecionar arquivo */
+
+[data-testid="stFileUploaderDropzone"] button {
+    background-color: #B08D57 !important;
+    color: #FFFFFF !important;
+    border: 1px solid #B08D57 !important;
+    border-radius: 7px !important;
+}
+
+/* Hover */
+
+[data-testid="stFileUploaderDropzone"] button:hover {
+    background-color: #8C6B3F !important;
+    color: #FFFFFF !important;
+}
+/* INDICADORES */
+
+[data-testid="stMetric"] {
+    background-color: #FFFFFF !important;
+    border: 1px solid var(--borda) !important;
+    border-radius: 12px !important;
+    padding: 20px !important;
+}
+
+[data-testid="stMetricValue"] {
+    color: var(--dourado-escuro) !important;
+}
+
+/* TABELAS */
+
+[data-testid="stDataFrame"] {
+    border: 1px solid var(--borda);
+    border-radius: 10px;
+}
+
+/* CAMPOS */
+
+.stTextInput input,
+.stNumberInput input {
+    border-color: var(--dourado-claro) !important;
+}
+
+/* RODAPÉ */
+
+footer {
+    visibility: hidden;
+}
+/* =====================================
+   CABEÇALHO ROSALIA
+===================================== */
+
+.cabecalho-rosalia {
+    text-align: center;
+    padding: 25px 0 35px 0;
+}
+
+.cabecalho-rosalia h1 {
+    font-family: Georgia, serif !important;
+    font-size: 58px !important;
+    font-weight: normal !important;
+    letter-spacing: 9px !important;
+    color: #B08D57 !important;
+    margin-bottom: 0 !important;
+}
+
+.subtitulo-marca {
+    color: #8C6B3F;
+    font-family: Georgia, serif;
+    font-size: 17px;
+    letter-spacing: 8px;
+    margin-top: 5px;
+}
+
+.linha-dourada {
+    width: 120px;
+    height: 1px;
+    background-color: #B08D57;
+    margin: 22px auto;
+}
+
+.cabecalho-rosalia p {
+    color: #777777;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}

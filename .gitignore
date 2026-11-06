@@ -1,0 +1,22 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Arquivos confidenciais
+.env
+.streamlit/secrets.toml
+
+# Arquivos de teste e dados
+*.pdf
+*.xlsx
+
+# Configurações locais
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
